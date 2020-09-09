@@ -1,0 +1,17 @@
+.gallery__container {
+  align-content: center;
+  column-gap: 5rem;
+  display: grid;
+  row-gap: 5rem;
+  grid-template-columns: repeat(3, 30rem);
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.gallery__image img {
+  align-self: center;
+  display: grid;
+  height: 40rem;
+  width: 30rem;
+}

@@ -1,0 +1,57 @@
+.btn {
+  align-items: center;
+  border: none;
+  border-radius: 10rem;
+  display: grid;
+  font-size: 2rem;
+  height: 4rem;
+  justify-self: center;
+  width: 20rem;
+}
+
+.btn-container {
+  align-self: center;
+  display: grid;
+}
+
+.btn-submit {
+  background-color: $primary-color;
+  color: $text-color-light;
+  margin-top: 2rem;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.section__text {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  margin: 3rem 25rem;
+}
+
+.section__title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+// .services {
+//   background-image: linear-gradient(
+//     to right bottom,
+//     rgba($primary-color, 0.8),
+//     rgba($primary-color-dark, 0.8)
+//   );
+//   color: $text-color-light;
+// }
+
+.tagline {
+  font-family: georgia, serif;
+  font-size: 2.6rem;
+}
+
+.tagline__container {
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  text-align: center;
+}

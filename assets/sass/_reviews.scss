@@ -1,0 +1,35 @@
+.add-review {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 7rem 23rem;
+  justify-content: center;
+  text-decoration: none;
+}
+.review {
+  box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.1),
+    0 0.6rem 2rem 0 rgba(0, 0, 0, 0.09);
+  display: grid;
+  grid-template-rows: 25rem 5rem;
+}
+
+.review__container {
+  column-gap: 5rem;
+  display: grid;
+  grid-template-columns: 55rem 55rem;
+  grid-template-rows: repeat(5, 30rem);
+  justify-content: center;
+  margin-bottom: 10rem;
+  margin-top: 5rem;
+  row-gap: 5rem;
+}
+
+.review__text {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  margin: 5rem 10rem 2rem 10rem;
+}
+
+.reviewer {
+  font-size: 1.6rem;
+  text-align: center;
+}

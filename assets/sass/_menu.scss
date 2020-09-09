@@ -1,0 +1,17 @@
+.menu {
+  background-color: $primary-color;
+
+  &__list {
+    list-style: none;
+  }
+
+  &__item {
+    color: $text-color-light;
+    font-size: 1.8rem;
+  }
+
+  & a {
+    text-decoration: none;
+    color: $text-color-light;
+  }
+}
