@@ -12,13 +12,15 @@
     "@fortawesome/fontawesome-pro": "^5.14.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/pro-light-svg-icons": "^5.14.0",
+    "@fortawesome/vue-fontawesome": "^2.0.0",
     "bootstrap": "^4.5.0",
-    "bootstrap-vue": "^2.15.0",
-    "nuxt": "^2.14.0",
+    "bootstrap-vue": "^2.17.3",
+    "nuxt": "^2.14.6",
     "nuxt-fontawesome": "^0.4.0"
   },
   "devDependencies": {
-    "@nuxtjs/google-fonts": "^1.0.0",
+    "@nuxtjs/google-fonts": "^1.0.3",
     "@nuxtjs/svg": "^0.1.12",
     "node-sass": "^4.14.1",
     "sass-loader": "^10.0.2"

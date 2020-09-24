@@ -1,0 +1,32 @@
+.service {
+  background-color: rgba($color-white, 0.6);
+  margin: 0 auto;
+  padding: 2rem;
+  width: 75%;
+
+  &:not(:last-child) {
+    margin-bottom: 5rem;
+  }
+
+  &__text {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+
+  &__title {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+}
+
+.services {
+  margin-bottom: 7rem;
+}
+
+.services__descriptions {
+  padding-bottom: 10rem;
+  padding-top: 10rem;
+  position: relative;
+}

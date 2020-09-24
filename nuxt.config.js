@@ -29,13 +29,15 @@ export default {
   ** Global CSS
   */
   css: [
-    '~assets/sass/style.scss'
+    '~assets/sass/style.scss',
+    '@fortawesome/fontawesome-svg-core/styles.css'
   ],
   /*
   ** Plugins to load before mounting the App
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+    '~/plugins/fontawesome.js',
   ],
   /*
   ** Auto import components
@@ -59,20 +61,12 @@ export default {
   modules: [
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
-    ['nuxt-fontawesome', {
-      component: 'fa', 
-      imports: [
-        {
-          set: '@fortawesome/free-solid-svg-icons',
-          icons: ['fas']
-        },
-      ]
-    }], 
   ],
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+    
   }
 }

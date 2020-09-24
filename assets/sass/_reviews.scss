@@ -1,35 +1,50 @@
-.add-review {
-  align-items: center;
-  display: grid;
-  grid-template-columns: 7rem 23rem;
-  justify-content: center;
-  text-decoration: none;
+.col-5:not(:last-child) {
+  margin-bottom: 5rem;
 }
+
 .review {
+  background-color: $color-white;
   box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.1),
     0 0.6rem 2rem 0 rgba(0, 0, 0, 0.09);
-  display: grid;
-  grid-template-rows: 25rem 5rem;
+  height: 40rem;
+  padding: 4rem;
+  position: relative;
+  transition: transform 0.4s ease-out 0s;
+
+  &:hover {
+    transform: scale(1.02, 1.02);
+    transition: transform 0.4s ease-in-out 0s;
+  }
+
+  &__text {
+    border: 6px solid;
+    border-image: radial-gradient($primary-color, $primary-color-light) 1;
+    box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.1),
+      0 0.6rem 2rem 0 rgba(0, 0, 0, 0.09);
+    font-size: 1.6rem;
+    height: 80%;
+    padding: 1.5rem;
+    position: relative;
+    width: 100%;
+  }
+
+  &__reviewer {
+    bottom: 4rem;
+    color: lighten($color-black, 15%);
+    font-size: 1.4rem;
+    position: absolute;
+    left: 4rem;
+  }
+
+  &__image {
+    bottom: 3.5rem;
+    height: 3.5rem;
+    position: absolute;
+    right: 4rem;
+    width: 5rem;
+  }
 }
 
 .review__container {
-  column-gap: 5rem;
-  display: grid;
-  grid-template-columns: 55rem 55rem;
-  grid-template-rows: repeat(5, 30rem);
-  justify-content: center;
-  margin-bottom: 10rem;
-  margin-top: 5rem;
-  row-gap: 5rem;
-}
-
-.review__text {
-  font-size: 1.8rem;
-  line-height: 2.2rem;
-  margin: 5rem 10rem 2rem 10rem;
-}
-
-.reviewer {
-  font-size: 1.6rem;
-  text-align: center;
+  margin-bottom: 5rem;
 }

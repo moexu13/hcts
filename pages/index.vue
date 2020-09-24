@@ -15,7 +15,6 @@
     <Cards />
     <Services />
     <Reviews />
-    <Gallery />
     <Faqs />
     <About />
     <ContactForm />

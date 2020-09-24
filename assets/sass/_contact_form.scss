@@ -16,34 +16,16 @@
   width: 50%;
 }
 
-.label {
-  font-size: 2rem;
+.form-control {
+  border: solid 2px lighten($color-black, 50%);
+  font-size: 1.6rem;
+  resize: none;
+}
+
+.form-group {
   margin-top: 2rem;
 }
 
-.message {
-  border: 0.2rem solid lighten($color-black, 50%);
-  border-radius: 1rem;
-  font-family: inherit;
+.form-label {
   font-size: 2rem;
-  margin-bottom: 2rem;
-  width: 40rem;
-
-  &:focus {
-    border-color: $primary-color;
-  }
-}
-
-.textbox {
-  border: 0.2rem solid lighten($color-black, 50%);
-  border-radius: 1rem;
-  font-family: inherit;
-  font-size: 2rem;
-  height: 4rem;
-  margin-bottom: 2rem;
-  width: 40rem;
-
-  &:focus {
-    border-color: $primary-color;
-  }
 }

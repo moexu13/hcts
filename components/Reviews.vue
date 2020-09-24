@@ -5,127 +5,114 @@
     <p class="section__text">
       We love receiving feedback regarding our tree maintenance, care, and
       removal. Whether you were impressed by the work we did or think that some
-      aspect of our work could be improved, please share your opinion on our
+      aspect of our work could be improved, please share your opinion on
       <a href="https://goo.gl/maps/5gdnDJRvW1k" target="_blank">
-        Google Business Page</a
+        our Google Business Page</a
       >.
     </p>
 
-    <div class="review__container">
-      <div class="review">
-        <p class="review__text">
-          I looked far and wide for a tree service provider who would not
-          disappoint me, and it seems that it has paid off. Those guys managed
-          to get the whole project done in no time, while still bringing an
-          outstanding quality of service to the table. They didn't even charge
-          me too much for it, amazing work by outstanding professionals.
-        </p>
+    <div class="review__container container">
+      <div class="row justify-content-center">
+        <div class="col-5">
+          <div class="review">
+            <p class="review__text">
+              I live in Randolph and Johnny and crew starting working for me 2
+              years ago when they removed many trees from our property. He has
+              since taking over all our landscaping needs from tree removal,
+              pavers installations to all our snow removals. All at reasonable
+              prices beating their competitions. Great work High Class.
+            </p>
 
-        <div class="reviewer">Torri Brock, Jan 24, 2019</div>
+            <span class="review__reviewer">&mdash; Trevor D.</span>
+            <img src="~assets/images/heart.png" class="review__image" alt="" />
+          </div>
+        </div>
+
+        <div class="col-1">&nbsp;</div>
+
+        <div class="col-5">
+          <div class="review">
+            <p class="review__text">
+              Johnny and his crew were AMAZING! They maneuvered their huge truck
+              and equipment up our winding driveway like nobody’s business!!!
+              And they took care of the tree that fell and they even cleaned up
+              the driveway where all was cut. I would highly recommend them!!!
+              And their prices were much better than their competitors!!!
+            </p>
+
+            <span class="review__reviewer">&mdash; Nora B.</span>
+            <img src="~assets/images/heart.png" class="review__image" alt="" />
+          </div>
+        </div>
       </div>
 
-      <div class="review">
-        <p class="review__text">
-          With the tree service of this company, my backyard now looks lovely
-          and I am very happy with the job their professionals did for me. They
-          performed excellently with each task I had for them and I happily
-          recommend them to anyone who is looking for experts. Thank you!
-        </p>
+      <div class="row justify-content-center">
+        <div class="col-5">
+          <div class="review">
+            <p class="review__text">
+              They came on time as promised and worked very carefully to protect
+              my property as well as the neighbors property. The price was fair
+              and the end result was perfect, they left everything clean and
+              neat afterwards. I would highly recommend them, thank you for a
+              great job!
+            </p>
 
-        <div class="reviewer">Howard Cox, Dec 28, 2018</div>
+            <span class="review__reviewer">&mdash; Elizabeth I.</span>
+            <img src="~assets/images/heart.png" class="review__image" alt="" />
+          </div>
+        </div>
+
+        <div class="col-1">&nbsp;</div>
+
+        <div class="col-5">
+          <div class="review">
+            <p class="review__text">
+              Johnny and his crew came in and removed some really large old dead
+              trees and removed multiple stumps from the yard. His team worked
+              quickly and efficiently for a very fair price. We will definitely
+              call them in the future when we re-landscape after our
+              construction project is done.
+            </p>
+
+            <span class="review__reviewer">&mdash; Rob H.</span>
+            <img src="~assets/images/heart.png" class="review__image" alt="" />
+          </div>
+        </div>
       </div>
 
-      <div class="review">
-        <p class="review__text">
-          Great tree service. I first hired them because of their reasonable and
-          fair rates, but the quality of their work proved to be ideal for me.
-          My cousin first recommended their company to me, and I couldn't thank
-          him enough for it. Reasonable and high-grade tree service with every
-          call. I highly recommend their work
-        </p>
+      <div class="row justify-content-center">
+        <div class="col-5">
+          <div class="review">
+            <p class="review__text">
+              Johnny and his crew took care of a massive amount of trees for us
+              when we had a retaining wall to build. We also needed a few trees
+              trimmed. Hired them again, for my father's place for some general
+              trimming of all his trees. They are experts! It's like watching a
+              ballet. They work hard, and every thing is explained well. Prices
+              are great, work is great, people are great!
+            </p>
 
-        <div class="reviewer">Richard Evans, Dec 24, 2018</div>
-      </div>
+            <span class="review__reviewer">&mdash; John R.</span>
+            <img src="~assets/images/heart.png" class="review__image" alt="" />
+          </div>
+        </div>
 
-      <div class="review">
-        <p class="review__text">
-          I was looking for a tree pruning company when I found out about these
-          people online. They proved to be exceptional specialists and completed
-          the job with ease and in a timely manner. The quality of their work is
-          superb and their professionals are very reliable. Keep up the good
-          work. You are true specialists!
-        </p>
+        <div class="col-1">&nbsp;</div>
 
-        <div class="reviewer">Jeremy Baker, Nov 28, 2018</div>
-      </div>
+        <div class="col-5">
+          <div class="review">
+            <p class="review__text">
+              I had trees between my house and a neighbors house with less that
+              10' clearance. The men scaled the tree and lowered every branch
+              and section without disturbing either house. An excellent and
+              hazardous job completed without incident. I will definitely be
+              hiring High Class Tree Service again!
+            </p>
 
-      <div class="review">
-        <p class="review__text">
-          Perfect. Our home was in need of a reliable tree service provider who
-          would get the whole thing done in a speedy and thorough manner, and we
-          seem to have found just what we were looking for. I am going to
-          contact you guys again sometime soon for another project, you have
-          earned a new client for sure.
-        </p>
-
-        <div class="reviewer">Michael Dawson, Nov 24, 2018</div>
-      </div>
-
-      <div class="review">
-        <p class="review__text">
-          Really well-done! I am grateful for the outstanding quality of service
-          and your reasonable rates! Keep it up! I highly recommend you to
-          everyone in the area who need their trees managed!
-        </p>
-
-        <div class="reviewer">Carolyn West, Oct 30, 2018</div>
-      </div>
-
-      <div class="review">
-        <p class="review__text">
-          Thanks to the affordable tree service I got from this company, I was
-          able to complete the overhaul of my backyard on time with my schedule.
-          Their professionals delivered an amazing service for me and I am happy
-          to have hired them. Thank you for everything!
-        </p>
-
-        <div class="reviewer">Michael Perry, Oct 28, 2018</div>
-      </div>
-
-      <div class="review">
-        <p class="review__text">
-          They went above and beyond to provide me with the most outstanding
-          tree service I have ever received. My backyard trees look so amazing
-          now, and it is all thanks to the efforts of these professionals. They
-          are definitely a great choice for people working with budgets of all
-          sizes, and I can't wait to schedule again.
-        </p>
-
-        <div class="reviewer">Sarrah Parson, Oct 24 2018</div>
-      </div>
-
-      <div class="review">
-        <p class="review__text">
-          I always turn to these people for their tree maintenance services, and
-          I am always happy with the results of their work. They always perform
-          flawlessly and the quality they deliver is up to any standard. I have
-          only nice things to say about them and will keep hiring them in the
-          future.
-        </p>
-
-        <div class="reviewer">Martin Henderson, Sep 28, 2018</div>
-      </div>
-
-      <div class="review">
-        <p class="review__text">
-          My number one choice for tree service in the area. They are always on
-          time, and their work is easily among the finest I have ever had the
-          pleasure of scheduling. Thank you for over two years of awesome
-          service. I recommend your work to everyone who asks me, as you guys
-          deserve all the exposure you receive for sure.
-        </p>
-
-        <div class="reviewer">Justin Luca, Sep 24, 2018</div>
+            <span class="review__reviewer">&mdash; Danile M.</span>
+            <img src="~assets/images/heart.png" class="review__image" alt="" />
+          </div>
+        </div>
       </div>
     </div>
   </section>

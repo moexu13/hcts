@@ -1,39 +1,38 @@
 <template>
   <section class="form-container">
-    <div class="tagline__container">
-      <div class="tagline">Contact Us</div>
-    </div>
+    <h2 class="section__title">Contact Us</h2>
+
     <div class="contact-form" id="contact-form">
       <form action="/" method="post">
-        <p>
-          <label for="name" class="label">Name</label><br />
-          <input id="name" type="text" name="name" class="textbox" />
-        </p>
+        <div class="form-group">
+          <label for="name" class="form-label">Name</label>
+          <input id="name" type="text" name="name" class="form-control" />
+        </div>
 
-        <p>
-          <label for="email" class="label">Email</label><br />
-          <input id="email" type="email" name="email" class="textbox" />
-        </p>
+        <div class="form-group">
+          <label for="email" class="form-label">Email</label>
+          <input id="email" type="email" name="email" class="form-control" />
+        </div>
 
-        <p>
-          <label for="phone" class="label">Phone</label><br />
-          <input id="phone" type="tel" name="phone" class="textbox" />
-        </p>
+        <div class="form-group">
+          <label for="phone" class="form-label">Phone</label>
+          <input id="phone" type="tel" name="phone" class="form-control" />
+        </div>
 
-        <p>
-          <label for="message" class="label">Message</label><br />
+        <div class="form-group">
+          <label for="message" class="form-label">Message</label>
           <textarea
             id="message"
             name="message"
-            class="message"
+            class="form-control"
             rows="6"
             cols="50"
           ></textarea>
-        </p>
+        </div>
 
-        <p class="btn-container">
+        <div class="row btn-container">
           <button class="btn btn-submit">Send</button>
-        </p>
+        </div>
       </form>
     </div>
   </section>

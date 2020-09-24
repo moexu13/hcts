@@ -1,9 +1,9 @@
 <template>
   <section class="services" id="services">
     <div class="tagline__container">
-      <div class="tagline">
+      <h2 class="tagline">
         Landscaping, Lawn Care, and Tree Work Done With Care
-      </div>
+      </h2>
     </div>
 
     <p class="section__text">
@@ -12,45 +12,66 @@
       projects.
     </p>
 
-    <h2 class="section__title">Tree Care Service</h2>
+    <div class="services__descriptions">
+      <div class="bg-video">
+        <video class="bg-video__content" autoplay muted loop>
+          <source src="~assets/images/video.mp4" type="video/mp4" />
+          Your browser is not supported
+        </video>
+      </div>
 
-    <p class="section__text">
-      Our experienced arborists can take care of all of your tree problems. We
-      specialize in tree pruning and also provide tree maintenance services,
-      including yearly tree inspection. Our tree experts are highly trained and
-      pay attention to detail, ensuring the beauty and proper growth of your
-      tree.
-    </p>
+      <div class="service row">
+        <div class="col">
+          <h2 class="service__title">Tree Care Service</h2>
 
-    <h2 class="section__title">Tree Removal Service</h2>
+          <p class="service__text">
+            Our experienced arborists can take care of all of your tree
+            problems. We specialize in tree pruning and also provide tree
+            maintenance services including yearly tree inspection. Our tree
+            experts are highly trained and pay attention to detail, ensuring the
+            beauty and proper growth of your tree.
+          </p>
+        </div>
+      </div>
 
-    <p class="section__text">
-      Dead and sickly trees can pose a safety hazard, so if your tree has
-      succumbed to illness then removing it is the best choice you can make.
-      Removing trees can be difficult, and our team has years of experience
-      handling tree removal work.
-    </p>
+      <div class="service row">
+        <div class="col">
+          <h2 class="service__title">Tree Removal Service</h2>
 
-    <h2 class="section__title">Landscaping Service</h2>
+          <p class="service__text">
+            Dead and sickly trees can pose a safety hazard, so if your tree has
+            succumbed to illness then removing it is the best choice you can
+            make. Removing trees can be difficult and requires specialized
+            equipment, and our team has years of experience handling tree
+            removal work.
+          </p>
+        </div>
+      </div>
 
-    <p class="section__text">
-      Need landscaping? We offer a variety of landscaping options including
-      landscaping construction.
-    </p>
+      <div class="service row">
+        <div class="col">
+          <h2 class="service__title pt-4">Landscaping Service</h2>
 
-    <p class="section__text">
-      Outdoor patios are not only a great aesthetic addition to any property,
-      but it also provides you with a great place to relax and enjoy the company
-      of friends and family on a hot summer day! We use only the finest quality
-      materials we can find to build outdoor decorations and lounge areas!
-    </p>
+          <p class="service__text">
+            Need landscaping? We offer a variety of landscaping options
+            including landscaping construction. Outdoor patios are not only an
+            aesthetic addition to any property, they provide you with a great
+            place to relax and enjoy the company of friends and family on a hot
+            summer day.
+          </p>
+        </div>
+      </div>
 
-    <h2 class="section__title">Lawn Care Service</h2>
+      <div class="service row">
+        <div class="col">
+          <h2 class="service__title">Lawn Care Service</h2>
 
-    <p class="section__text">
-      We will do what we can to take care of your lawn to the best of our
-      ability! Lawn care is a great way to keep your lawn green and healthy,
-      which in turn can greatly boost the appeal of your property!
-    </p>
+          <p class="service__text">
+            Regular lawn care keeps your lawn green and healthy, which greatly
+            boosts the appeal of your property.
+          </p>
+        </div>
+      </div>
+    </div>
   </section>
 </template>

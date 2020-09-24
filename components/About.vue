@@ -20,9 +20,9 @@
     </p>
 
     <div class="tagline__container">
-      <div class="tagline">
+      <h2 class="tagline">
         We Provide a Complete Spectrum of Tree Services
-      </div>
+      </h2>
     </div>
   </section>
 </template>

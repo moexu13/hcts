@@ -1,3 +1,20 @@
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.15;
+  overflow: hidden;
+
+  &__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
 .btn {
   align-items: center;
   border: none;
@@ -17,7 +34,17 @@
 .btn-submit {
   background-color: $primary-color;
   color: $text-color-light;
-  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+
+  &:hover {
+    background-color: $primary-color-light;
+    color: $text-color-light;
+  }
+}
+
+.faqs {
+  margin-top: 5rem;
 }
 
 .hero-image {
@@ -27,23 +54,14 @@
 .section__text {
   font-size: 1.8rem;
   line-height: 2.5rem;
-  margin: 3rem 25rem;
+  margin: 5rem 12rem;
 }
 
 .section__title {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: bold;
   text-align: center;
 }
-
-// .services {
-//   background-image: linear-gradient(
-//     to right bottom,
-//     rgba($primary-color, 0.8),
-//     rgba($primary-color-dark, 0.8)
-//   );
-//   color: $text-color-light;
-// }
 
 .tagline {
   font-family: georgia, serif;

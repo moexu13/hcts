@@ -11,7 +11,7 @@
       </div>
       <div class="header__phone col-sm text-right">
         <a class="phone" href="tel:+19734375510">
-          <fa :icon="['fas', 'phone']" />
+          <font-awesome-icon icon="phone" />
           973-437-5510</a
         >
       </div>
