@@ -36,10 +36,18 @@
   color: $text-color-light;
   margin-bottom: 2rem;
   margin-top: 3rem;
+  transition: all 0.2s;
 
   &:hover {
-    background-color: $primary-color-light;
+    background-color: lighten($primary-color, 5%);
     color: $text-color-light;
+    outline: none;
+    transform: translateY(-3px);
+  }
+
+  &:active {
+    outline: none;
+    transform: translateY(-1px);
   }
 }
 

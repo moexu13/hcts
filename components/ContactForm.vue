@@ -1,25 +1,43 @@
 <template>
-  <section class="form-container">
+  <section class="contact-form" id="contact-form">
     <h2 class="section__title">Contact Us</h2>
 
-    <div class="contact-form" id="contact-form">
+    <div class="form__container">
       <form action="/" method="post">
-        <div class="form-group">
+        <div class="form-group mt-4">
           <label for="name" class="form-label">Name</label>
-          <input id="name" type="text" name="name" class="form-control" />
+          <input
+            id="name"
+            type="text"
+            name="name"
+            class="form-control"
+            required
+          />
         </div>
 
-        <div class="form-group">
+        <div class="form-group mt-4">
           <label for="email" class="form-label">Email</label>
-          <input id="email" type="email" name="email" class="form-control" />
+          <input
+            id="email"
+            type="email"
+            name="email"
+            class="form-control"
+            required
+          />
         </div>
 
-        <div class="form-group">
+        <div class="form-group mt-4">
           <label for="phone" class="form-label">Phone</label>
-          <input id="phone" type="tel" name="phone" class="form-control" />
+          <input
+            id="phone"
+            type="tel"
+            name="phone"
+            class="form-control"
+            required
+          />
         </div>
 
-        <div class="form-group">
+        <div class="form-group mt-4">
           <label for="message" class="form-label">Message</label>
           <textarea
             id="message"
@@ -27,10 +45,11 @@
             class="form-control"
             rows="6"
             cols="50"
+            required
           ></textarea>
         </div>
 
-        <div class="row btn-container">
+        <div class="row btn-container mt-5">
           <button class="btn btn-submit">Send</button>
         </div>
       </form>
