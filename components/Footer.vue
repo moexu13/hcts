@@ -12,19 +12,13 @@
     </div>
     <div class="social-bar">
       <a href="https://facebook.com"
-        ><img
-          src="~assets/images/facebook.svg"
-          class="social-icon"
-          alt="facebook"
+        ><font-awesome-icon :icon="['fab', 'facebook-f']"
       /></a>
       <a href="https://twitter.com"
-        ><img src="~assets/images/twitter.svg" class="social-icon" alt="twitter"
+        ><font-awesome-icon :icon="['fab', 'twitter']"
       /></a>
       <a href="https://linkedin.com"
-        ><img
-          src="~assets/images/linkedin.svg"
-          class="social-icon"
-          alt="linkedin"
+        ><font-awesome-icon :icon="['fab', 'linkedin-in']"
       /></a>
     </div>
   </footer>
