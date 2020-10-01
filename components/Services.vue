@@ -15,8 +15,9 @@
     <div class="services__descriptions">
       <div class="bg-video">
         <video class="bg-video__content" autoplay muted loop>
-          <source src="~assets/images/video.mp4" type="video/mp4" />
-          Your browser is not supported
+          <source src="~assets/images/chainsaw.mp4" type="video/mp4" />
+          <source src="~assets/images/chainsaw.webm" type="video/webm" />
+          This background video is not supported in your browser
         </video>
       </div>
 
