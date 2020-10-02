@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <div class="row align-items-center">
+    <div class="row align-items-center m-0">
       <div class="header__logo col-lg">
         <n-link :to="`/`">
           <img

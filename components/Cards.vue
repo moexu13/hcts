@@ -1,7 +1,7 @@
 <template>
   <div class="cards">
-    <div class="row">
-      <div class="card-deck justify-content-center">
+    <div class="row m-0">
+      <div class="card-deck justify-content-center m-0">
         <div class="card col-3 mr-5">
           <img
             class="card-icon card-img-top mx-auto"
