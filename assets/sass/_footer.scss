@@ -4,8 +4,16 @@
   height: 20rem;
   width: 100%;
 
+  @include respond(tab-port) {
+    height: 16rem;
+  }
+
   &__attribution {
     font-size: 1.4rem;
+
+    @include respond(tab-port) {
+      font-size: 1.2rem;
+    }
   }
 
   &__contact {
@@ -13,11 +21,31 @@
     line-height: 1.4;
     margin-left: 6rem;
     margin-top: 6rem;
+
+    @include respond(tab-port) {
+      margin-left: 4rem;
+      margin-top: 4rem;
+    }
+
+    @include respond(phone) {
+      float: none;
+      line-height: normal;
+      margin-left: 2rem;
+      margin-top: 1.5rem;
+    }
   }
 
   &__contact-info {
     color: $text-color-light;
     font-size: 1.6rem;
+
+    @include respond(tab-port) {
+      font-size: 1.4rem;
+    }
+
+    @include respond(phone) {
+      font-size: 1.2rem;
+    }
   }
 
   & a {
@@ -32,4 +60,17 @@
   letter-spacing: 5px;
   margin-right: 6rem;
   margin-top: 7rem;
+
+  @include respond(tab-port) {
+    font-size: 2rem;
+    letter-spacing: 3px;
+    margin-right: 4rem;
+    margin-top: 5rem;
+  }
+
+  @include respond(phone) {
+    float: none;
+    margin-left: 2rem;
+    padding-top: 2rem;
+  }
 }

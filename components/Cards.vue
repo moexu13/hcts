@@ -2,10 +2,10 @@
   <div class="cards">
     <div class="row m-0">
       <div class="card-deck justify-content-center m-0">
-        <div class="card col-3 mr-5">
+        <div class="card col-sm">
           <img
             class="card-icon card-img-top mx-auto"
-            src="../assets/images/chainsaw.svg"
+            src="~assets/images/chainsaw.svg"
           />
           <div class="card-body">
             <h3 class="card-title">Tree Services</h3>
@@ -15,10 +15,10 @@
             </p>
           </div>
         </div>
-        <div class="card col-3 ml-3 mr-5">
+        <div class="card col-sm">
           <img
             class="card-icon card-img-top mx-auto"
-            src="../assets/images/landscaping.svg"
+            src="~assets/images/landscaping.svg"
           />
           <div class="card-body">
             <h3 class="card-title">Landscaping</h3>
@@ -27,10 +27,10 @@
             </p>
           </div>
         </div>
-        <div class="card col-3 ml-3">
+        <div class="card col-sm">
           <img
             class="card-icon card-img-top mx-auto"
-            src="../assets/images/lawnmower.svg"
+            src="~assets/images/lawnmower.svg"
           />
           <div class="card-body">
             <h3 class="card-title">Lawn Care</h3>

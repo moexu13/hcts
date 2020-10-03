@@ -1,6 +1,10 @@
 .menu {
   background-color: $primary-color;
 
+  @include respond(phone) {
+    display: none;
+  }
+
   &__list {
     list-style: none;
   }
@@ -8,6 +12,10 @@
   &__item {
     color: $text-color-light;
     font-size: 1.8rem;
+
+    @include respond(tab-port) {
+      font-size: 1.4rem;
+    }
   }
 
   & a {

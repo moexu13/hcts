@@ -1,7 +1,7 @@
 <template>
   <header class="header">
-    <div class="row align-items-center m-0">
-      <div class="header__logo col-lg">
+    <div>
+      <div class="header__logo">
         <n-link :to="`/`">
           <img
             src="~assets/images/hcts_logo.png"
@@ -9,7 +9,7 @@
           />
         </n-link>
       </div>
-      <div class="header__phone col-sm text-right">
+      <div class="header__phone">
         <a class="phone" href="tel:+19734375510">
           <font-awesome-icon icon="phone" />
           973-437-5510</a

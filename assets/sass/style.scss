@@ -1,4 +1,8 @@
+// these have to be first
+@import "./mixins";
 @import "./variables";
+
+// normal imports
 @import "./base";
 @import "./cards";
 @import "./contact_form";
@@ -7,6 +11,5 @@
 @import "./header";
 @import "./index";
 @import "./menu";
-@import "./mixins";
 @import "./reviews";
 @import "./services";

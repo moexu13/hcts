@@ -49,7 +49,7 @@
           ></textarea>
         </div>
 
-        <div class="row btn-container mt-5">
+        <div class="row">
           <button class="btn btn-submit">Send</button>
         </div>
       </form>

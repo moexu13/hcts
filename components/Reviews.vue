@@ -13,7 +13,7 @@
 
     <div class="review__container container">
       <div class="row justify-content-center">
-        <div class="col-5">
+        <div class="col-sm">
           <div class="review">
             <p class="review__text">
               I live in Randolph and Johnny and crew starting working for me 2
@@ -28,9 +28,7 @@
           </div>
         </div>
 
-        <div class="col-1">&nbsp;</div>
-
-        <div class="col-5">
+        <div class="col-sm">
           <div class="review">
             <p class="review__text">
               Johnny and his crew were AMAZING! They maneuvered their huge truck
@@ -47,7 +45,7 @@
       </div>
 
       <div class="row justify-content-center">
-        <div class="col-5">
+        <div class="col-sm">
           <div class="review">
             <p class="review__text">
               They came on time as promised and worked very carefully to protect
@@ -62,9 +60,7 @@
           </div>
         </div>
 
-        <div class="col-1">&nbsp;</div>
-
-        <div class="col-5">
+        <div class="col-sm">
           <div class="review">
             <p class="review__text">
               Johnny and his crew came in and removed some really large old dead
@@ -81,7 +77,7 @@
       </div>
 
       <div class="row justify-content-center">
-        <div class="col-5">
+        <div class="col-sm">
           <div class="review">
             <p class="review__text">
               Johnny and his crew took care of a massive amount of trees for us
@@ -97,9 +93,7 @@
           </div>
         </div>
 
-        <div class="col-1">&nbsp;</div>
-
-        <div class="col-5">
+        <div class="col-sm">
           <div class="review">
             <p class="review__text">
               I had trees between my house and a neighbors house with less that
